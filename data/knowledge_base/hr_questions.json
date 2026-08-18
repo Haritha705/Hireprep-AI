@@ -1,0 +1,302 @@
+[
+  {
+    "role": "HR",
+    "question_number": 1,
+    "question": "Tell me about yourself.",
+    "answer": "I am a driven and highly adaptable professional with a strong foundation in collaborative environments and a proven track record of solving problems efficiently. Throughout my career, I have focused on delivering high-quality results by maintaining strong communication and taking ownership of my tasks. I thrive in dynamic settings where continuous learning is encouraged, and I am looking forward to bringing my dedication and structured approach to your team."
+  },
+  {
+    "role": "HR",
+    "question_number": 2,
+    "question": "Why do you want to work for this company?",
+    "answer": "I want to work here because your organization is highly regarded for its commitment to quality, innovation, and fostering a collaborative culture. I am looking for an environment that values continuous professional growth and sets a high benchmark for success. Aligning my skills with a company of this caliber allows me to make a meaningful impact while continuing to develop my own professional capabilities."
+  },
+  {
+    "role": "HR",
+    "question_number": 3,
+    "question": "What do you know about our company?",
+    "answer": "I know that your company has built a strong market presence by focusing on exceptional quality, strong client relationships, and maintaining a culture of professional excellence. I have also been following your recent growth and initiatives, and I am highly impressed by how your teams work cohesively to meet strategic goals. This collaborative and forward-thinking environment is exactly where I want to build my career."
+  },
+  {
+    "role": "HR",
+    "question_number": 4,
+    "question": "Why should we hire you?",
+    "answer": "You should hire me because I offer a strong blend of execution, reliability, and an eager-to-learn mindset. I am highly adaptable, which means I can integrate into your team quickly and start contributing to project goals without a steep learning curve. I focus heavily on operational efficiency, collaborative communication, and consistently delivering high-quality outputs under tight timelines."
+  },
+  {
+    "role": "HR",
+    "question_number": 5,
+    "question": "What are your strengths?",
+    "answer": "My core strengths are clear, proactive communication, structured time management, and a strong sense of personal accountability. I am highly organized, which allows me to prioritize multiple deliverables effectively, and I pride myself on maintaining a calm, logical approach to problem-solving even when working under tight pressure."
+  },
+  {
+    "role": "HR",
+    "question_number": 6,
+    "question": "What are your weaknesses?",
+    "answer": "Earlier in my career, I tended to spend too much time perfecting minor details, which sometimes risked impacting my overall schedule. To address this, I started implementing strict task-prioritization frameworks and setting interim milestones. This shift helped me strike the perfect balance between high-quality output and meeting project deadlines efficiently."
+  },
+  {
+    "role": "HR",
+    "question_number": 7,
+    "question": "Where do you see yourself in five years?",
+    "answer": "In five years, I see myself taking on broader responsibilities, contributing to larger strategic initiatives, and mentoring newer team members. My goal is to build deep, specialized expertise within this domain and become a highly dependable, go-to resource within your organization."
+  },
+  {
+    "role": "HR",
+    "question_number": 8,
+    "question": "Why are you leaving your current job?",
+    "answer": "I am seeking a new opportunity because I am ready to take on more complex responsibilities and apply my skills to a more challenging environment. I want to transition into a role that offers stronger professional growth pathways and aligns closely with my long-term career aspirations."
+  },
+  {
+    "role": "HR",
+    "question_number": 9,
+    "question": "What are your salary expectations?",
+    "answer": "I am looking for a fair and competitive salary package that reflects my experience, skills, and the market rate for this specific role. However, my primary focus is finding the right organizational fit where I can add genuine value, grow professionally, and contribute to long-term success."
+  },
+  {
+    "role": "HR",
+    "question_number": 10,
+    "question": "Are you willing to relocate?",
+    "answer": "Yes, I am fully open to relocating for the right opportunity. If the position aligns with my career goals and offers a strong path for growth, I am ready to transition and establish myself in a new location."
+  },
+  {
+    "role": "HR",
+    "question_number": 11,
+    "question": "What kind of work environment do you prefer?",
+    "answer": "I perform best in a collaborative, structured environment that encourages open communication, mutual respect, and continuous learning. I value a culture where team members support one another, take accountability for their deliverables, and focus on shared outcomes."
+  },
+  {
+    "role": "HR",
+    "question_number": 12,
+    "question": "Describe your ideal manager.",
+    "answer": "My ideal manager is someone who sets clear, measurable expectations, provides constructive feedback, and trusts their team to execute. I thrive under leaders who practice open communication, encourage individual ownership, and support professional development."
+  },
+  {
+    "role": "HR",
+    "question_number": 13,
+    "question": "What motivates you?",
+    "answer": "I am deeply motivated by solving complex problems, continuously acquiring new skills, and seeing the tangible, positive impact of my contributions on the team's overall goals. Completing a project successfully and knowing it added real value is what drives my day-to-day engagement."
+  },
+  {
+    "role": "HR",
+    "question_number": 14,
+    "question": "How do you handle pressure?",
+    "answer": "I handle pressure by detaching from the immediate stress, assessing the situation logically, and breaking down the workload into prioritized, manageable tasks. I focus strictly on immediate actions, communicate proactively with stakeholders about timelines, and ensure that quality remains uncompromised."
+  },
+  {
+    "role": "HR",
+    "question_number": 15,
+    "question": "How do you handle criticism?",
+    "answer": "I view constructive criticism as an essential tool for professional growth. I listen objectively without becoming defensive, ask clarifying questions to ensure I fully understand the perspective, and immediately implement actionable adjustments to improve my future performance."
+  },
+  {
+    "role": "HR",
+    "question_number": 16,
+    "question": "Tell me about a time you faced conflict at work.",
+    "answer": "I once worked on a team where a misunderstanding about project ownership was causing friction. I initiated a direct, calm conversation with the team member to understand their perspective. By clarifying our respective tasks and setting up a shared tracker, we resolved the confusion, restored mutual trust, and completed the project smoothly."
+  },
+  {
+    "role": "HR",
+    "question_number": 17,
+    "question": "Tell me about a time you failed.",
+    "answer": "Early in my career, I underestimated the time needed for a complex deliverable and missed an internal milestone. I immediately informed my manager, provided an updated completion path, and worked extra hours to minimize the delay. From that experience, I learned to build realistic buffers into my planning and proactively flag risks early."
+  },
+  {
+    "role": "HR",
+    "question_number": 18,
+    "question": "Describe a time you worked under a tight deadline.",
+    "answer": "I was once assigned a high-priority client deliverable with a very tight turnaround. I organized the workflow immediately, isolated the critical path items, and collaborated closely with key team members to delegate dependencies. Through focused execution and open communication, we delivered the project on time with zero errors."
+  },
+  {
+    "role": "HR",
+    "question_number": 19,
+    "question": "Give an example of leadership.",
+    "answer": "During a group initiative, our project plan began falling behind schedule due to shifting requirements. I stepped up to coordinate our efforts, restructured the task allocation based on team strengths, and set daily syncs to monitor progress. This kept everyone motivated and allowed us to deliver the project successfully."
+  },
+  {
+    "role": "HR",
+    "question_number": 20,
+    "question": "Tell me about a time you worked in a team.",
+    "answer": "In a cross-functional project, I collaborated with colleagues from different departments to launch a new workflow. I made sure to provide regular, transparent updates, proactively support team members who were facing bottlenecks, and align our work toward the primary objective, resulting in a seamless rollout."
+  },
+  {
+    "role": "HR",
+    "question_number": 21,
+    "question": "Tell me about a time you adapted to change.",
+    "answer": "When our team suddenly transitioned to a completely new software system mid-project, I dedicated my personal hours to learning the platform quickly. I then created a simplified, step-by-step guide for my colleagues, which helped our entire department adapt to the transition with minimal impact on our delivery timeline."
+  },
+  {
+    "role": "HR",
+    "question_number": 22,
+    "question": "Tell me about a time you took initiative.",
+    "answer": "I noticed that our team spent several hours weekly on manual data entry. I took the initiative to research and set up a basic automation template, which I proposed to my manager. After getting approval, I implemented the template, saving the team valuable hours every week and significantly reducing manual input errors."
+  },
+  {
+    "role": "HR",
+    "question_number": 23,
+    "question": "Tell me about a time you made a mistake.",
+    "answer": "I once overlooked a minor formatting detail in a report sent to a senior stakeholder. As soon as I noticed, I corrected the error, sent the updated version with a brief explanation, and apologized. To ensure it never happened again, I developed a structured quality checklist that I now use for all critical deliverables."
+  },
+  {
+    "role": "HR",
+    "question_number": 24,
+    "question": "Describe a difficult problem you solved.",
+    "answer": "We were facing a recurring bottleneck in our project delivery pipeline. I conducted a root-cause analysis, mapped out the entire workflow, and identified where the breakdown occurred. By collaborating with the team to restructure that specific handoff step, we eliminated the bottleneck and improved our delivery turnaround time."
+  },
+  {
+    "role": "HR",
+    "question_number": 25,
+    "question": "Tell me about a time you had multiple priorities.",
+    "answer": "During a busy quarter, I was managing three urgent deliverables simultaneously. I mapped them out using a priority matrix, ranking them by business impact and deadlines. I communicated realistic timelines to stakeholders, set dedicated blocks of focused time for each task, and successfully delivered all three on schedule."
+  },
+  {
+    "role": "HR",
+    "question_number": 26,
+    "question": "Tell me about a time you disagreed with your manager.",
+    "answer": "I once disagreed with my manager’s proposed approach to a project timeline because I felt it risked quality. I scheduled a brief private meeting, presented data on past project velocities, and respectfully suggested a modified phase-based schedule. My manager appreciated the evidence-based approach, and we agreed on a revised plan."
+  },
+  {
+    "role": "HR",
+    "question_number": 27,
+    "question": "Tell me about a time you handled a difficult stakeholder.",
+    "answer": "I worked with a client who was frustrated due to communication delays from our side. I scheduled a call, listened actively to their concerns without getting defensive, and validated their feedback. I then established a weekly progress report cadency to rebuild trust, which successfully restored and strengthened the relationship."
+  },
+  {
+    "role": "HR",
+    "question_number": 28,
+    "question": "Tell me about a time you learned a new skill quickly.",
+    "answer": "For an upcoming project, I needed to learn a complex data analysis tool within two weeks. I structured a daily self-study plan, utilized online resources, and completed practice exercises. I was able to gain a functional grasp of the tool before the project kicked off, allowing me to contribute to the analysis immediately."
+  },
+  {
+    "role": "HR",
+    "question_number": 29,
+    "question": "Tell me about a time you improved a process.",
+    "answer": "I realized our onboarding documentation for new team members was outdated, leading to long ramp-up times. I spent time compiling a centralized, step-by-step digital guide containing all necessary links, FAQs, and contact points. This reduced the ramp-up time for new hires significantly and freed up team training hours."
+  },
+  {
+    "role": "HR",
+    "question_number": 30,
+    "question": "What is your greatest professional achievement?",
+    "answer": "My greatest professional achievement was spearheading a high-stakes project under tight constraints and successfully delivering it on time. The project delivered measurable value to the company, but more importantly, it proved my ability to manage complex dependencies, lead cross-functional efforts, and deliver under pressure."
+  },
+  {
+    "role": "HR",
+    "question_number": 31,
+    "question": "How do you manage stress?",
+    "answer": "I manage stress by keeping my work highly organized and practicing proactive planning. When workload spikes, I focus strictly on logical prioritization, take short mental breaks to maintain focus, and ensure I am communicating transparently with my team regarding progress and roadblocks."
+  },
+  {
+    "role": "HR",
+    "question_number": 32,
+    "question": "How do you prioritize your work?",
+    "answer": "I prioritize my work using a systematic approach, evaluating each task based on its urgency, potential business impact, and dependency on other team members. I also make it a point to review and adjust these priorities at the start of each day to accommodate any unexpected changes."
+  },
+  {
+    "role": "HR",
+    "question_number": 33,
+    "question": "How do you handle repetitive tasks?",
+    "answer": "I approach repetitive tasks by focusing on the value of consistency and precision. I look at them as opportunities to optimize—I try to find ways to streamline or automate the workflow to save time, ensuring that the final output remains consistently high in quality."
+  },
+  {
+    "role": "HR",
+    "question_number": 34,
+    "question": "What are your short-term career goals?",
+    "answer": "My immediate goal is to successfully transition into this role, thoroughly master the team's processes, and establish myself as a highly reliable, productive contributor. I want to build strong internal relationships and consistently exceed my key performance indicators."
+  },
+  {
+    "role": "HR",
+    "question_number": 35,
+    "question": "What are your long-term career goals?",
+    "answer": "Over the long term, I aim to grow into leadership or strategic roles within the organization, where I can help drive key initiatives, mentor emerging talent, and contribute directly to the company's long-term business goals and market success."
+  },
+  {
+    "role": "HR",
+    "question_number": 36,
+    "question": "What would your previous manager say about you?",
+    "answer": "I believe my previous manager would describe me as a highly dependable, collaborative, and proactive team member. They would likely highlight my ability to take complete ownership of my projects, my constructive approach to feedback, and my readiness to help others."
+  },
+  {
+    "role": "HR",
+    "question_number": 37,
+    "question": "How do you respond to change?",
+    "answer": "I view change as a natural and positive part of professional growth. When changes occur, I focus on understanding the underlying objectives quickly, adapting my workflow to align with the new direction, and helping my team navigate the transition smoothly."
+  },
+  {
+    "role": "HR",
+    "question_number": 38,
+    "question": "Describe a time you had to say no.",
+    "answer": "I was once asked to take on a new project while in the middle of a high-priority launch. Knowing that accepting it would compromise the quality of both deliverables, I walked my manager through my current bandwidth and suggested a revised timeline or delegating a portion of the task. We agreed on a realistic compromise."
+  },
+  {
+    "role": "HR",
+    "question_number": 39,
+    "question": "Tell me about a time you worked with someone different from you.",
+    "answer": "I once paired with a colleague who had a highly analytical, detail-focused style, whereas I tend to focus on the broader operational picture. By recognizing our complementary strengths, we structured our collaboration so they handled data verification while I managed process flow, resulting in an exceptionally balanced project."
+  },
+  {
+    "role": "HR",
+    "question_number": 40,
+    "question": "What do you expect from this role?",
+    "answer": "I expect this role to challenge my problem-solving skills, provide opportunities to collaborate with a high-performing team, and offer a clear pathway for professional growth. I am looking forward to taking on meaningful responsibilities that drive measurable value."
+  },
+  {
+    "role": "HR",
+    "question_number": 41,
+    "question": "How do you ensure quality in your work?",
+    "answer": "I ensure quality by building self-review steps into my workflow, cross-referencing my outputs with the initial requirements, and using checklist systems to prevent oversight. I also welcome constructive peer reviews to ensure the final product meets the highest standards."
+  },
+  {
+    "role": "HR",
+    "question_number": 42,
+    "question": "What do you do when you do not know something?",
+    "answer": "If I encounter a concept or tool I am unfamiliar with, I first research independently using internal documentation and professional resources. If I need further clarification, I seek guidance from a subject matter expert with specific, targeted questions to respect their time while learning quickly."
+  },
+  {
+    "role": "HR",
+    "question_number": 43,
+    "question": "What does teamwork mean to you?",
+    "answer": "To me, teamwork means aligning individual talents toward a unified goal through open communication, mutual respect, and accountability. It involves supporting colleagues during high-pressure periods, sharing knowledge, and celebrating shared milestones together."
+  },
+  {
+    "role": "HR",
+    "question_number": 44,
+    "question": "How do you build relationships at work?",
+    "answer": "I build professional relationships by being dependable, approachable, and consistently respectful of others' expertise and time. I prioritize active listening, maintain transparency in my communications, and readily offer support to colleagues whenever possible."
+  },
+  {
+    "role": "HR",
+    "question_number": 45,
+    "question": "What do you do if you receive negative feedback?",
+    "answer": "I separate my personal feelings from professional critique. I listen carefully to the feedback, thank the provider for their transparency, and map out a clear action plan to address the areas of concern. I then schedule a follow-up later on to ensure my adjustments meet expectations."
+  },
+  {
+    "role": "HR",
+    "question_number": 46,
+    "question": "What is your preferred leadership style?",
+    "answer": "I thrive under a leadership style that is empowering and communicative. I value managers who set clear strategic objectives, provide their team members with the autonomy to execute their roles, and offer supportive, constructive guidance along the way."
+  },
+  {
+    "role": "HR",
+    "question_number": 47,
+    "question": "Have you ever gone beyond your job responsibilities?",
+    "answer": "Yes. On one occasion, a team member was unexpectedly out of office right before a critical client delivery. I stepped in to cover their urgent tasks alongside my own, coordinating with other team members to split the workload and ensure the project went out on time and with high quality."
+  },
+  {
+    "role": "HR",
+    "question_number": 48,
+    "question": "Why do you want to change your career or role?",
+    "answer": "I want to transition because my professional strengths and interests have naturally evolved toward this field. I have spent time building the foundational skills needed for this path, and I am eager to apply them in a dedicated capacity where I can drive long-term value."
+  },
+  {
+    "role": "HR",
+    "question_number": 49,
+    "question": "How long do you plan to work with us?",
+    "answer": "I am looking for a long-term commitment. I want to build a career within this organization, where I can consistently contribute to business success, grow alongside the company, and take on progressive responsibilities over the coming years."
+  },
+  {
+    "role": "HR",
+    "question_number": 50,
+    "question": "Do you have any questions for us?",
+    "answer": "Yes, I do. Could you share what the typical onboarding journey looks like for this role? Additionally, what are the most critical milestones or goals you would hope to see the successful candidate achieve within their first 90 days?"
+  }
+]

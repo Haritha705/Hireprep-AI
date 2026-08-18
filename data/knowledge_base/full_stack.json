@@ -1,0 +1,302 @@
+[
+  {
+    "category": "Core role and concepts",
+    "question_number": 1,
+    "question": "What is a full stack developer?",
+    "answer": "Works on frontend, backend, database, and often deployment, able to deliver features end-to-end."
+  },
+  {
+    "category": "Core role and concepts",
+    "question_number": 2,
+    "question": "Describe the typical architecture of a modern web application.",
+    "answer": "Client (browser or mobile app), server/API layer, database, plus optional caching/CDN and microservices."
+  },
+  {
+    "category": "Core role and concepts",
+    "question_number": 3,
+    "question": "Explain the difference between monolithic and microservices architectures.",
+    "answer": "Monolith: all features in one deployable unit; microservices: many small services communicating over APIs."
+  },
+  {
+    "category": "Core role and concepts",
+    "question_number": 4,
+    "question": "What is MVC and why is it used?",
+    "answer": "Model-View-Controller separates data, UI, and logic, improving testability and maintainability."
+  },
+  {
+    "category": "Core role and concepts",
+    "question_number": 5,
+    "question": "How do you decide which technology stack (e.g., MERN vs LAMP) to use?",
+    "answer": "Based on team skills, project requirements, performance needs, ecosystem, hosting, and long-term maintainability."
+  },
+  {
+    "category": "Frontend: HTML, CSS, JavaScript, frameworks",
+    "question_number": 6,
+    "question": "What are the roles of HTML, CSS, and JavaScript in a web page?",
+    "answer": "HTML: structure, CSS: presentation, JavaScript: behavior and interactivity."
+  },
+  {
+    "category": "Frontend: HTML, CSS, JavaScript, frameworks",
+    "question_number": 7,
+    "question": "What is responsive design and how do you implement it?",
+    "answer": "Using flexible layouts, media queries, and fluid images to adapt to different screens."
+  },
+  {
+    "category": "Frontend: HTML, CSS, JavaScript, frameworks",
+    "question_number": 8,
+    "question": "Explain the concept of a component in React/Angular/Vue.",
+    "answer": "A self-contained unit of UI + logic that can be reused and composed to build complex interfaces."
+  },
+  {
+    "category": "Frontend: HTML, CSS, JavaScript, frameworks",
+    "question_number": 9,
+    "question": "What is state management and why is it important?",
+    "answer": "Handling UI data over time (e.g., form inputs, auth state) consistently; avoids bugs and \"spaghetti\" updates."
+  },
+  {
+    "category": "Frontend: HTML, CSS, JavaScript, frameworks",
+    "question_number": 10,
+    "question": "What are some ways to improve frontend performance?",
+    "answer": "Minify/bundle assets, use lazy loading, compress images, reduce render-blocking scripts, cache data."
+  },
+  {
+    "category": "Backend: APIs, servers, business logic",
+    "question_number": 11,
+    "question": "What is a RESTful API?",
+    "answer": "An API that uses HTTP verbs (GET, POST, PUT, DELETE) and resource-based URLs, ideally stateless."
+  },
+  {
+    "category": "Backend: APIs, servers, business logic",
+    "question_number": 12,
+    "question": "Compare REST and GraphQL.",
+    "answer": "REST: multiple endpoints, fixed responses; GraphQL: single endpoint, clients specify the data they need."
+  },
+  {
+    "category": "Backend: APIs, servers, business logic",
+    "question_number": 13,
+    "question": "What is middleware in Node/Express (or similar frameworks)?",
+    "answer": "Functions executed between request and response handling (logging, auth, parsing, etc.)."
+  },
+  {
+    "category": "Backend: APIs, servers, business logic",
+    "question_number": 14,
+    "question": "How do you handle errors in backend code?",
+    "answer": "Use try/catch, centralized error handlers, structured error responses, logging, and proper status codes."
+  },
+  {
+    "category": "Backend: APIs, servers, business logic",
+    "question_number": 15,
+    "question": "What is the difference between synchronous and asynchronous code?",
+    "answer": "Synchronous blocks execution until done; asynchronous allows other tasks while waiting (callbacks, promises, async/await)."
+  },
+  {
+    "category": "Databases and data modeling",
+    "question_number": 16,
+    "question": "Explain the difference between SQL and NoSQL databases.",
+    "answer": "SQL: relational, structured tables; NoSQL: flexible schema (documents, key-value, column, graph)."
+  },
+  {
+    "category": "Databases and data modeling",
+    "question_number": 17,
+    "question": "What is normalization and why is it important?",
+    "answer": "Structuring tables to minimize redundancy and anomalies, improving consistency."
+  },
+  {
+    "category": "Databases and data modeling",
+    "question_number": 18,
+    "question": "What is a primary key and a foreign key?",
+    "answer": "Primary key: unique row ID; foreign key: links to a primary key in another table to form relationships."
+  },
+  {
+    "category": "Databases and data modeling",
+    "question_number": 19,
+    "question": "When would you choose a NoSQL database?",
+    "answer": "High scalability, flexible schema, large unstructured data, or when relational constraints are less critical."
+  },
+  {
+    "category": "Databases and data modeling",
+    "question_number": 20,
+    "question": "How do you design database indexes and why are they needed?",
+    "answer": "Create indexes on frequently filtered/joined columns to speed queries, balancing performance vs write cost."
+  },
+  {
+    "category": "Security",
+    "question_number": 21,
+    "question": "What are common web security vulnerabilities?",
+    "answer": "XSS, SQL injection, CSRF, insecure storage, broken auth/session handling."
+  },
+  {
+    "category": "Security",
+    "question_number": 22,
+    "question": "How do you prevent SQL injection?",
+    "answer": "Parameterized queries, prepared statements, no string-concatenated SQL, validate inputs."
+  },
+  {
+    "category": "Security",
+    "question_number": 23,
+    "question": "How do you prevent XSS attacks?",
+    "answer": "Escape and sanitize user input, avoid injecting raw HTML, use Content Security Policy."
+  },
+  {
+    "category": "Security",
+    "question_number": 24,
+    "question": "What is the difference between authentication and authorization?",
+    "answer": "Authentication: verifying identity; authorization: verifying permissions."
+  },
+  {
+    "category": "Security",
+    "question_number": 25,
+    "question": "What is HTTPS and why is it important?",
+    "answer": "Secure, encrypted HTTP; protects data in transit and builds user trust."
+  },
+  {
+    "category": "DevOps, deployment, and scalability",
+    "question_number": 26,
+    "question": "What is Docker and why is it used?",
+    "answer": "Containerization to bundle app + dependencies for consistent runs across environments."
+  },
+  {
+    "category": "DevOps, deployment, and scalability",
+    "question_number": 27,
+    "question": "What is CI/CD?",
+    "answer": "Continuous Integration/Deployment: automated building, testing, and deploying on code changes."
+  },
+  {
+    "category": "DevOps, deployment, and scalability",
+    "question_number": 28,
+    "question": "Explain horizontal vs vertical scaling.",
+    "answer": "Horizontal: more servers; vertical: bigger server (more CPU/RAM)."
+  },
+  {
+    "category": "DevOps, deployment, and scalability",
+    "question_number": 29,
+    "question": "What is a reverse proxy and why might you use one?",
+    "answer": "Sits in front of backend services, handling routing, SSL termination, caching, load balancing."
+  },
+  {
+    "category": "DevOps, deployment, and scalability",
+    "question_number": 30,
+    "question": "How do you design a scalable system for high traffic?",
+    "answer": "Stateless services, load balancing, caching, database optimization (indexes, sharding/replication), asynchronous processing."
+  },
+  {
+    "category": "Testing and quality",
+    "question_number": 31,
+    "question": "What types of tests are important for a full stack app?",
+    "answer": "Unit, integration, end-to-end, performance, and security tests."
+  },
+  {
+    "category": "Testing and quality",
+    "question_number": 32,
+    "question": "What is unit testing?",
+    "answer": "Testing individual functions/components in isolation."
+  },
+  {
+    "category": "Testing and quality",
+    "question_number": 33,
+    "question": "What is integration testing?",
+    "answer": "Testing interactions between multiple modules (e.g., API + DB)."
+  },
+  {
+    "category": "Testing and quality",
+    "question_number": 34,
+    "question": "What is end-to-end testing?",
+    "answer": "Verifying full user flows from UI through backend and database."
+  },
+  {
+    "category": "Testing and quality",
+    "question_number": 35,
+    "question": "How do you ensure code quality in a team?",
+    "answer": "Code reviews, consistent style guidelines, tests, CI, and clear documentation."
+  },
+  {
+    "category": "Behavioral and scenario-based",
+    "question_number": 36,
+    "question": "Describe a project where you worked across the full stack. What was your role?",
+    "answer": "Expect to talk about requirements, tech choices, implementation, challenges, and results."
+  },
+  {
+    "category": "Behavioral and scenario-based",
+    "question_number": 37,
+    "question": "How do you handle conflicting requirements between frontend and backend teams?",
+    "answer": "Clarify business goals, discuss trade-offs, agree on API contracts, and document decisions."
+  },
+  {
+    "category": "Behavioral and scenario-based",
+    "question_number": 38,
+    "question": "Describe how you debug a slow API endpoint.",
+    "answer": "Check logs, profile queries, inspect CPU/memory, measure network latency, optimize code and DB operations."
+  },
+  {
+    "category": "Behavioral and scenario-based",
+    "question_number": 39,
+    "question": "How do you debug a page that loads slowly in the browser?",
+    "answer": "Use DevTools network and performance tabs, identify heavy assets/script, optimize caching and rendering."
+  },
+  {
+    "category": "Behavioral and scenario-based",
+    "question_number": 40,
+    "question": "Tell me about a time you introduced a performance improvement.",
+    "answer": "Give a concrete example: what was slow, what you changed (e.g., caching, indexing), and impact."
+  },
+  {
+    "category": "Modern trends and tooling",
+    "question_number": 41,
+    "question": "What is server-side rendering (SSR) and why use it?",
+    "answer": "Rendering HTML on the server for faster first load and better SEO."
+  },
+  {
+    "category": "Modern trends and tooling",
+    "question_number": 42,
+    "question": "What is client-side rendering (CSR)?",
+    "answer": "Browser fetches JS bundle and renders UI fully on the client."
+  },
+  {
+    "category": "Modern trends and tooling",
+    "question_number": 43,
+    "question": "What is an API gateway?",
+    "answer": "Single entry point for client requests, routing to microservices, handling auth, rate-limiting, and logging."
+  },
+  {
+    "category": "Modern trends and tooling",
+    "question_number": 44,
+    "question": "How do you manage environment-specific configuration (dev, test, prod)?",
+    "answer": "Using environment variables, config files, and secrets managers; never hardcode secrets in code."
+  },
+  {
+    "category": "Modern trends and tooling",
+    "question_number": 45,
+    "question": "What is caching at different layers (browser, CDN, application)?",
+    "answer": "Storing responses or data closer to the user or app to reduce repeated computation or fetches."
+  },
+  {
+    "category": "Core knowledge summary questions",
+    "question_number": 46,
+    "question": "If you join a new project, how do you quickly understand its architecture?",
+    "answer": "Read docs, explore repo structure, check deployment pipeline, talk to team, review diagrams."
+  },
+  {
+    "category": "Core knowledge summary questions",
+    "question_number": 47,
+    "question": "How do you ensure security when adding a new feature?",
+    "answer": "Threat modeling, validate inputs, enforce auth/roles, follow security best practices, add tests."
+  },
+  {
+    "category": "Core knowledge summary questions",
+    "question_number": 48,
+    "question": "What are some signs that you should refactor code?",
+    "answer": "Duplication, complex functions, unclear naming, frequent bugs, hard-to-add features."
+  },
+  {
+    "category": "Core knowledge summary questions",
+    "question_number": 49,
+    "question": "How do you prioritize tasks when you own both frontend and backend pieces?",
+    "answer": "Clarify deadlines, dependencies, unblock others first, implement core APIs then UI, iterate."
+  },
+  {
+    "category": "Core knowledge summary questions",
+    "question_number": 50,
+    "question": "Where do you see full stack development heading in the next few years?",
+    "answer": "More cloud-native, microservices, serverless, AI-assisted tooling, and stronger focus on security and performance."
+  }
+]

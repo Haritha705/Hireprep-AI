@@ -1,0 +1,152 @@
+[
+  {
+    "role": "Project",
+    "question_number": 1,
+    "question": "Explain your final year project end-to-end.",
+    "answer": "My final year project is a data-driven system built using a robust machine learning architecture. End-to-end, it takes raw unstructured or high-dimensional input data, passes it through a preprocessing pipeline where we perform feature engineering and dimensionality reduction, and feeds it into our core predictive models. The backend processes these evaluations and handles data persistence, while a responsive frontend presents the resulting predictions, performance charts, and actionable analytics to the end user via secure, RESTful API communication."
+  },
+  {
+    "role": "Project",
+    "question_number": 2,
+    "question": "What problem does your project solve?",
+    "answer": "The project addresses the challenge of accurately extracting valuable, low-dimensional insights from complex, noisy datasets without losing critical variance. In many business and technical contexts, processing massive amounts of raw feature data manually or with traditional models leads to severe performance bottlenecks and high error rates. Our system automates this pipeline, streamlining operations and providing fast, highly reliable analytical outcomes."
+  },
+  {
+    "role": "Project",
+    "question_number": 3,
+    "question": "Why did you choose this project?",
+    "answer": "I chose this project because it perfectly bridges deep technical concepts—like advanced machine learning architectures and mathematical dimensionality reduction—with practical, real-world applications. I wanted to build something that required solving complex technical hurdles while demonstrating how data engineering and clean software architecture directly solve operational inefficiencies."
+  },
+  {
+    "role": "Project",
+    "question_number": 4,
+    "question": "Describe the architecture of your project.",
+    "answer": "The application follows a decoupled, three-tier architecture designed for modularity and scalability. The presentation layer consists of a modern frontend framework displaying interactive data visualizations and charts. The application layer features a robust backend microservice that orchestrates the data processing workflows, handles routing, and communicates with our machine learning models. Finally, the data layer utilizes a persistent database to securely store user configurations, raw inputs, and processed analytical history."
+  },
+  {
+    "role": "Project",
+    "question_number": 5,
+    "question": "Which technologies did you use and why?",
+    "answer": "I used Python along with libraries like NumPy, Pandas, and Scikit-Learn for the core data manipulation and modeling due to their robust ecosystem. For the backend framework, I selected a lightweight, high-performance API framework to ensure fast execution speeds and minimal overhead during heavy computations. The database was chosen to handle structured data integrity, while the frontend utilized specialized charting libraries to deliver dynamic, highly intuitive visualizations for the user."
+  },
+  {
+    "role": "Project",
+    "question_number": 6,
+    "question": "What was your role in the project?",
+    "answer": "As a primary developer on this project, I was responsible for the end-to-end development of the core data processing pipelines and machine learning logic, including designing the model architectures and managing dimensionality reduction phases. Additionally, I took ownership of designing the database schemas, implementing the backend APIs, and ensuring the seamless integration of frontend visualization charts with live server data."
+  },
+  {
+    "role": "Project",
+    "question_number": 7,
+    "question": "Explain the database schema.",
+    "answer": "The database schema is designed using a clean, normalized relational structure to enforce data consistency. It consists of core tables: a Users table for authentication details and profile settings, a Projects table tracking distinct datasets, and a separate Analytics/Results table linked via foreign keys. This design ensures that raw historical data, optimized feature outputs, and user metrics are organized efficiently, allowing for fast query execution and indexing."
+  },
+  {
+    "role": "Project",
+    "question_number": 8,
+    "question": "How does the frontend communicate with the backend?",
+    "answer": "Communication is handled asynchronously using secure RESTful HTTP requests. The frontend dispatches JSON payloads containing user actions or raw data parameters to explicit backend API endpoints. The backend processes the calculations or database updates and returns structured JSON responses, including model evaluation matrices and chart coordinates, which the frontend consumes to dynamically re-render the user interface without requiring a full page reload."
+  },
+  {
+    "role": "Project",
+    "question_number": 9,
+    "question": "What APIs did you use?",
+    "answer": "The system relies on custom-designed internal REST APIs developed to strictly handle analytical computations, database queries, and data ingestion pipelines. We also integrated specialized third-party charting and visualization APIs on the presentation layer to render deep, interactive data graphics, alongside secure standard protocols for handling data exchange formats seamlessly."
+  },
+  {
+    "role": "Project",
+    "question_number": 10,
+    "question": "How did you test your project?",
+    "answer": "I implemented a multi-stage testing strategy. First, I wrote unit tests to independently verify the mathematical accuracy of our data preprocessing and modeling code blocks. Next, integration testing was conducted to ensure the backend APIs mapped perfectly to our database schemas and endpoints. Finally, system testing was executed to validate the entire workflow from user login to final chart generation under simulated user workloads."
+  },
+  {
+    "role": "Project",
+    "question_number": 11,
+    "question": "What challenges did you face and how did you solve them?",
+    "answer": "A major challenge was dealing with high-dimensional input data, which caused initial models to experience severe overfitting and high computational latency. I resolved this by researching and implementing advanced dimensionality reduction techniques—specifically evaluating standard linear models against deep encoder networks—which significantly reduced noise, compressed the feature space, and dropped our backend processing time dramatically."
+  },
+  {
+    "role": "Project",
+    "question_number": 12,
+    "question": "How did you deploy your application?",
+    "answer": "The application was deployed by containerizing the environment using Docker to isolate the dependencies, ensuring identical behavior between local development and production. The containerized application was hosted on a cloud infrastructure provider, utilizing managed container services for runtime orchestration, coupled with automated CI/CD pipelines to streamline updates."
+  },
+  {
+    "role": "Project",
+    "question_number": 13,
+    "question": "What security measures did you implement?",
+    "answer": "Security was integrated at every layer of the stack. We implemented strong industry-standard token-based authentication to secure API endpoints, ensuring all sensitive routes are protected. On the data layer, all user credentials undergo secure cryptographic hashing before database storage, and input data validation was enforced strictly across all endpoints to mitigate injection and scripting vulnerabilities."
+  },
+  {
+    "role": "Project",
+    "question_number": 14,
+    "question": "How would you scale your project?",
+    "answer": "To scale the project efficiently, I would move the computationally intensive machine learning inference pipelines into decoupled, asynchronous worker queues managed by Celery or Redis, preventing long-running tasks from locking the main API thread. Furthermore, deploying database replicas, setting up horizontal pod autoscaling in a cloud environment, and leveraging caching layers like Redis for recurring analytical queries would ensure the app handles high concurrency."
+  },
+  {
+    "role": "Project",
+    "question_number": 15,
+    "question": "What improvements would you make?",
+    "answer": "I would focus on introducing automated model retraining triggers so the underlying algorithms dynamically adapt to data drift over time without requiring manual developer intervention. Additionally, I would like to design more complex user management features, expand the chart dashboards to support customized user-generated reporting templates, and optimize our pipeline caching mechanics."
+  },
+  {
+    "role": "Project",
+    "question_number": 16,
+    "question": "Explain the most difficult feature you implemented.",
+    "answer": "The most complex feature was developing the real-time data ingestion and reduction engine, which required converting raw, cluttered datasets into optimized mathematical components without delaying the user experience. Building a custom pipeline that managed to efficiently perform these linear algebra computations on the fly while simultaneously updating interactive frontend visualization charts required fine-tuning memory allocations and minimizing synchronous backend blocks."
+  },
+  {
+    "role": "Project",
+    "question_number": 17,
+    "question": "How is authentication handled?",
+    "answer": "Authentication is handled through a stateless token-based flow. When a user submits their credentials, the backend validates them against hashed database records and issues a cryptographically signed JSON Web Token (JWT). The frontend stores this token securely and appends it to the authorization headers of all subsequent API requests, allowing the server to seamlessly verify permissions on every transaction."
+  },
+  {
+    "role": "Project",
+    "question_number": 18,
+    "question": "What libraries/frameworks were used?",
+    "answer": "The application relies on Scikit-Learn, Pandas, and NumPy for machine learning execution, dataset manipulation, and linear algebra routines. The application backend was constructed using a fast API routing framework to maintain high throughput. The UI layer was engineered using modern Javascript component structures coupled with advanced, interactive visualization libraries to handle complex chart rendering."
+  },
+  {
+    "role": "Project",
+    "question_number": 19,
+    "question": "How did you debug issues?",
+    "answer": "Debugging was managed systematically using automated logging frameworks that tracked stack traces and execution times across the system layers. For logic bugs inside the data pipeline, I used interactive debugging tools to step through matrix shapes and check for anomalies. On the frontend, I relied on browser developer tools to carefully inspect network payloads and ensure proper endpoint mapping."
+  },
+  {
+    "role": "Project",
+    "question_number": 20,
+    "question": "How would you explain this project to a non-technical person?",
+    "answer": "Imagine being overwhelmed with a massive pile of cluttered paperwork containing thousands of details, making it impossible to spot important patterns. My project acts like a smart assistant that instantly scans through all that information, throws away the useless clutter, keeps the absolute most important summaries, and organizes everything into clear, beautiful charts so you can make fast, smart decisions."
+  },
+  {
+    "role": "Project",
+    "question_number": 21,
+    "question": "What is unique about your project?",
+    "answer": "What sets this project apart is its seamless fusion of highly advanced data optimization algorithms with a consumer-grade dashboard. Most alternative tools require deep technical knowledge to run analysis and interpret outputs, whereas our system abstracts the underlying data complexity entirely, delivering high-tier predictive performance through an accessible, interactive visual workspace."
+  },
+  {
+    "role": "Project",
+    "question_number": 22,
+    "question": "How does your project compare with existing solutions?",
+    "answer": "While enterprise-grade analytics suites offer immense power, they often suffer from excessive configuration overhead, steep learning curves, and heavy computing demands. Our application delivers a lightweight, specialized alternative that prioritizes automated dimensionality reduction, giving users immediate clarity without the massive cost and resource overhead of traditional data platforms."
+  },
+  {
+    "role": "Project",
+    "question_number": 23,
+    "question": "What performance optimizations did you make?",
+    "answer": "I applied optimizations on both data and application levels. In the backend, I utilized vectorized matrix operations via NumPy to completely eliminate slow loops during data transformations. I also implemented selective data indexing on frequently queried database fields and configured asynchronous API routes, which drastically dropped response times and reduced memory usage during heavy analytical loads."
+  },
+  {
+    "role": "Project",
+    "question_number": 24,
+    "question": "What did you learn from this project?",
+    "answer": "This project taught me the immense value of clean code, structured planning, and solid system architecture. Beyond deep-diving into machine learning pipelines and complex data manipulation, I learned how to build robust, secure API integrations and gained practical experience managing the delicate balance between backend computation speeds and smooth user interfaces."
+  },
+  {
+    "role": "Project",
+    "question_number": 25,
+    "question": "If given six more months, what would you add?",
+    "answer": "With an extra six months, I would integrate deep learning capability by deploying neural network autoencoders alongside our traditional models to handle non-linear data structures even more effectively. I would also introduce real-time collaboration features allowing multiple users to review charts simultaneously and implement an automated predictive alert system via email or webhooks."
+  }
+]

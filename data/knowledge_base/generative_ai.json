@@ -1,0 +1,182 @@
+[
+  {
+    "category": "Foundational LLM Concepts",
+    "question_number": 1,
+    "question": "What is Generative AI and how does it differ from traditional discriminative machine learning?",
+    "answer": "Generative AI creates new content (text, images, audio, code) by modeling the underlying probability distribution of data P(X), whereas discriminative ML models predict labels or boundaries P(Y|X)."
+  },
+  {
+    "category": "Foundational LLM Concepts",
+    "question_number": 2,
+    "question": "Explain the Transformer architecture and the role of the self-attention mechanism.",
+    "answer": "Transformers process sequential data in parallel using self-attention, which calculates token relevancy scores across the sequence to capture long-range contextual relationships efficiently without recurrence."
+  },
+  {
+    "category": "Foundational LLM Concepts",
+    "question_number": 3,
+    "question": "What is the difference between Encoder-only, Decoder-only, and Encoder-Decoder architectures?",
+    "answer": "Encoder-only (e.g., BERT) excels at understanding and extraction; Decoder-only (e.g., GPT) generates autoregressive text token by token; Encoder-Decoder (e.g., T5) translates input representations into new output sequences."
+  },
+  {
+    "category": "Foundational LLM Concepts",
+    "question_number": 4,
+    "question": "What are tokenization and BPE (Byte-Pair Encoding) in Large Language Models?",
+    "answer": "Tokenization breaks text into subword units or characters. BPE is a subword tokenization algorithm that iteratively merges the most frequent pairs of characters or bytes to balance vocabulary size and out-of-vocabulary handling."
+  },
+  {
+    "category": "Foundational LLM Concepts",
+    "question_number": 5,
+    "question": "What are LLM sampling parameters like Temperature, Top-P (Nucleus), and Top-K?",
+    "answer": "Temperature scales logit probabilities to control output randomness; Top-K restricts sampling to the K highest-probability tokens; Top-P (Nucleus sampling) selects from the smallest set of tokens whose cumulative probability exceeds P."
+  },
+  {
+    "category": "Retrieval-Augmented Generation (RAG)",
+    "question_number": 6,
+    "question": "What is Retrieval-Augmented Generation (RAG) and why is it used?",
+    "answer": "RAG enhances LLM responses by fetching relevant external knowledge from a vector database or search engine at inference time, grounding answers in factual context and reducing hallucinations."
+  },
+  {
+    "category": "Retrieval-Augmented Generation (RAG)",
+    "question_number": 7,
+    "question": "What is chunking in RAG pipelines, and what strategies are commonly used?",
+    "answer": "Chunking splits long documents into smaller text segments before embedding. Strategies include fixed-size chunking with overlap, sentence-based chunking, markdown/semantic chunking, and parent-child chunking."
+  },
+  {
+    "category": "Retrieval-Augmented Generation (RAG)",
+    "question_number": 8,
+    "question": "Explain vector embeddings and cosine similarity in text retrieval.",
+    "answer": "Vector embeddings convert semantic meaning into high-dimensional numerical vectors. Cosine similarity measures the cosine of the angle between two vectors to quantify semantic similarity, independent of magnitude."
+  },
+  {
+    "category": "Retrieval-Augmented Generation (RAG)",
+    "question_number": 9,
+    "question": "What is Sparse vs. Dense Retrieval, and what is Hybrid Search?",
+    "answer": "Sparse retrieval uses keyword matching (BM25, TF-IDF), dense retrieval uses neural embeddings for semantic similarity, and hybrid search combines both scores (e.g., via Reciprocal Rank Fusion) for optimal precision and recall."
+  },
+  {
+    "category": "Retrieval-Augmented Generation (RAG)",
+    "question_number": 10,
+    "question": "What is Re-ranking in a RAG pipeline and why is it helpful?",
+    "answer": "Re-ranking uses a cross-encoder model to re-score and re-order top-N retrieved candidate chunks from bi-encoder search, significantly improving retrieval relevance before feeding context to the LLM."
+  },
+  {
+    "category": "Prompt Engineering & In-Context Learning",
+    "question_number": 11,
+    "question": "What is the difference between Zero-shot, Few-shot, and Chain-of-Thought (CoT) prompting?",
+    "answer": "Zero-shot asks the LLM to complete tasks without examples; Few-shot provides a few input-output demonstration pairs; CoT guides the LLM to break down reasoning step-by-step before answering complex problems."
+  },
+  {
+    "category": "Prompt Engineering & In-Context Learning",
+    "question_number": 12,
+    "question": "What is ReAct (Reasoning + Acting) pattern in AI Agents?",
+    "answer": "ReAct combines step-by-step reasoning traces with action execution (calling external tools, APIs, or databases) in an iterative loop to solve complex tasks dynamically."
+  },
+  {
+    "category": "Prompt Engineering & In-Context Learning",
+    "question_number": 13,
+    "question": "What is prompt injection and how can it be mitigated?",
+    "answer": "Prompt injection occurs when untrusted user input alters system prompt instructions. Mitigation includes input sanitization, strict delimiter separation, guardrails (NeMo Guardrails, Llama Guard), and structured JSON output enforcing."
+  },
+  {
+    "category": "Vector Databases & Frameworks",
+    "question_number": 14,
+    "question": "Compare popular Vector Databases such as MongoDB Vector Search, FAISS, ChromaDB, and Pinecone.",
+    "answer": "FAISS is a fast in-memory similarity search library; ChromaDB is a lightweight open-source embedded vector DB; Pinecone is a fully managed cloud vector platform; MongoDB Vector Search integrates vector indexing directly into document databases."
+  },
+  {
+    "category": "Vector Databases & Frameworks",
+    "question_number": 15,
+    "question": "What is HNSW (Hierarchical Navigable Small World) indexing in vector databases?",
+    "answer": "HNSW is a multi-layer graph-based indexing algorithm for approximate nearest neighbor (ANN) search that balances fast query latency and high recall in high-dimensional spaces."
+  },
+  {
+    "category": "Vector Databases & Frameworks",
+    "question_number": 16,
+    "question": "What is LangChain and what are its core building blocks?",
+    "answer": "LangChain is a framework for building LLM applications. Key abstractions include Prompts, LLM/Chat Models, Output Parsers, Document Loaders, Vector Stores, Retrievers, Chains, and Agents."
+  },
+  {
+    "category": "Vector Databases & Frameworks",
+    "question_number": 17,
+    "question": "What is LangGraph and how does it improve over standard Sequential Chains?",
+    "answer": "LangGraph represents LLM workflows as stateful graphs with nodes and edges, allowing cyclic execution, branching logic, multi-agent collaboration, and human-in-the-loop controls unavailable in linear chains."
+  },
+  {
+    "category": "Fine-Tuning & Model Adaptation",
+    "question_number": 18,
+    "question": "What is Parameter-Efficient Fine-Tuning (PEFT) and why is it preferred over full fine-tuning?",
+    "answer": "PEFT updates only a tiny fraction of model parameters (often <1%), drastically reducing GPU memory and compute requirements while maintaining performance close to full fine-tuning."
+  },
+  {
+    "category": "Fine-Tuning & Model Adaptation",
+    "question_number": 19,
+    "question": "Explain LoRA (Low-Rank Adaptation) and QLoRA.",
+    "answer": "LoRA injects rank-decomposition matrices into transformer layers to approximate weight updates without full retraining. QLoRA quantizes the base model to 4-bit precision before applying LoRA adaptors, making large LLM fine-tuning possible on single GPUs."
+  },
+  {
+    "category": "Fine-Tuning & Model Adaptation",
+    "question_number": 20,
+    "question": "What is RLHF (Reinforcement Learning from Human Feedback) and DPO (Direct Preference Optimization)?",
+    "answer": "RLHF aligns LLMs with human preferences using a reward model and PPO; DPO simplifies alignment by directly optimizing policy probabilities on pairwise preference data without needing a separate reward model or RL loop."
+  },
+  {
+    "category": "Evaluation, Observability & Guardrails",
+    "question_number": 21,
+    "question": "How do you evaluate RAG applications using the Ragas framework metrics?",
+    "answer": "Ragas evaluates RAG systems across key metrics: Faithfulness (is answer grounded in context), Answer Relevance (does answer address query), Context Precision (are chunks relevant), and Context Recall (was required info retrieved)."
+  },
+  {
+    "category": "Evaluation, Observability & Guardrails",
+    "question_number": 22,
+    "question": "What are LLM hallucinations, why do they occur, and how can they be minimized?",
+    "answer": "Hallucinations are confident but factually incorrect outputs caused by training data noise, decoding artifacts, or missing context. They are minimized using RAG, structured outputs, lower temperature, ground truth validation, and guardrails."
+  },
+  {
+    "category": "Evaluation, Observability & Guardrails",
+    "question_number": 23,
+    "question": "What is LLM-as-a-Judge evaluation methodology?",
+    "answer": "LLM-as-a-Judge uses a powerful model (e.g., GPT-4 or Claude 3.5 Sonnet) to evaluate model outputs against rubrics or reference answers, scoring quality, toxicity, and task completion at scale."
+  },
+  {
+    "category": "Agentic AI & System Architecture",
+    "question_number": 24,
+    "question": "What is an Autonomous AI Agent and what are its main components?",
+    "answer": "An AI Agent performs complex tasks autonomously using four core components: Planning (subgoal decomposition), Memory (short-term chat history and long-term vector store), Tool Use (API/search execution), and Action."
+  },
+  {
+    "category": "Agentic AI & System Architecture",
+    "question_number": 25,
+    "question": "What is the difference between Tool Calling (Function Calling) and unstructured generation?",
+    "answer": "Tool calling returns structured parameters matching a strict JSON schema defined for APIs or database calls, ensuring predictable execution unlike free-form unstructured generation."
+  },
+  {
+    "category": "Agentic AI & System Architecture",
+    "question_number": 26,
+    "question": "What is Model Quantization (GGUF, AWQ, GPTQ) and why is it important?",
+    "answer": "Quantization compresses model weights from 16-bit float to 8-bit or 4-bit integers, reducing memory footprint and boosting inference throughput on consumer hardware with minimal accuracy loss."
+  },
+  {
+    "category": "Agentic AI & System Architecture",
+    "question_number": 27,
+    "question": "What is KV Caching in Transformer inference acceleration?",
+    "answer": "KV (Key-Value) caching stores pre-calculated attention key and value matrices for previous tokens in memory so the decoder does not recompute them at each generated token step, speeding up inference."
+  },
+  {
+    "category": "Agentic AI & System Architecture",
+    "question_number": 28,
+    "question": "Explain vLLM and PagedAttention for high-throughput serving.",
+    "answer": "vLLM is an open-source serving engine that uses PagedAttention to dynamic allocate KV cache memory in non-contiguous virtual blocks, preventing memory fragmentation and increasing serving batch sizes by up to 24x."
+  },
+  {
+    "category": "Agentic AI & System Architecture",
+    "question_number": 29,
+    "question": "What is Semantic Caching in AI backend applications?",
+    "answer": "Semantic caching converts incoming user queries into embeddings and searches past cached responses in a vector DB. If cosine similarity exceeds a high threshold (e.g. 0.95), the cached response is returned immediately, saving LLM latency and cost."
+  },
+  {
+    "category": "Agentic AI & System Architecture",
+    "question_number": 30,
+    "question": "How do multi-agent systems coordinate using Supervisor or Agentic Team patterns?",
+    "answer": "In multi-agent systems, a Supervisor agent evaluates goals and delegates sub-tasks to specialized worker agents (e.g., Code Writer, Tester, Reviewer), managing state passing and routing until the final objective is accomplished."
+  }
+]

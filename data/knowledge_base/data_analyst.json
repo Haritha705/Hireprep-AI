@@ -1,0 +1,302 @@
+[
+  {
+    "category": "General role and process",
+    "question_number": 1,
+    "question": "What is the primary role of a data analyst in an organization?",
+    "answer": "To collect, clean, analyze, and interpret data to support data-driven business decisions."
+  },
+  {
+    "category": "General role and process",
+    "question_number": 2,
+    "question": "List the typical steps in a basic data analysis process.",
+    "answer": "Define the problem, collect data, clean data, explore data, model or analyze, visualize results, and communicate insights."
+  },
+  {
+    "category": "General role and process",
+    "question_number": 3,
+    "question": "Why is data cleaning important before analysis?",
+    "answer": "It removes errors, inconsistencies, and missing values so that insights are reliable and not misleading."
+  },
+  {
+    "category": "General role and process",
+    "question_number": 4,
+    "question": "What is exploratory data analysis (EDA)?",
+    "answer": "EDA is the initial investigation of data using summary statistics and visualizations to discover patterns, spot anomalies, and check assumptions."
+  },
+  {
+    "category": "General role and process",
+    "question_number": 5,
+    "question": "What is the difference between data analysis and data reporting?",
+    "answer": "Data analysis focuses on discovering patterns and insights; reporting focuses on summarizing metrics and presenting them in a structured format."
+  },
+  {
+    "category": "Tools and technologies",
+    "question_number": 6,
+    "question": "Which tool is most commonly used for querying relational databases in data analysis?",
+    "answer": "SQL (Structured Query Language)."
+  },
+  {
+    "category": "Tools and technologies",
+    "question_number": 7,
+    "question": "Name three spreadsheet functions useful for data analysis in Excel.",
+    "answer": "AVERAGE(), SUM(), VLOOKUP() (or XLOOKUP() in newer versions)."
+  },
+  {
+    "category": "Tools and technologies",
+    "question_number": 8,
+    "question": "Why do data analysts often use Python or R?",
+    "answer": "They offer powerful libraries for data manipulation, analysis, visualization, and automation."
+  },
+  {
+    "category": "Tools and technologies",
+    "question_number": 9,
+    "question": "What is a BI (Business Intelligence) tool? Give examples.",
+    "answer": "A BI tool helps visualize and share data insights via dashboards (e.g., Power BI, Tableau, Qlik)."
+  },
+  {
+    "category": "Tools and technologies",
+    "question_number": 10,
+    "question": "What is a dashboard in data analytics?",
+    "answer": "A dashboard is a visual interface showing key metrics and charts, often updated automatically from data sources."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 11,
+    "question": "What is a relational database?",
+    "answer": "A database that stores data in structured tables with rows and columns and defines relationships between those tables."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 12,
+    "question": "What is a primary key?",
+    "answer": "A column (or set of columns) that uniquely identifies each row in a table."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 13,
+    "question": "What is a foreign key?",
+    "answer": "A column in one table that refers to the primary key of another table, creating a relationship between them."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 14,
+    "question": "What does the SQL SELECT statement do?",
+    "answer": "It retrieves data from one or more tables based on specified columns and conditions."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 15,
+    "question": "How is the WHERE clause used in SQL?",
+    "answer": "It filters rows based on specified conditions so only matching records are returned."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 16,
+    "question": "What is an INNER JOIN in SQL?",
+    "answer": "It returns rows where there is a matching value in both joined tables based on the join condition."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 17,
+    "question": "What is GROUP BY used for in SQL?",
+    "answer": "To group rows that have the same values in specified columns, typically to apply aggregate functions like SUM or COUNT on each group."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 18,
+    "question": "Give an example of a SQL aggregate function.",
+    "answer": "COUNT(), SUM(), AVG(), MIN(), MAX()."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 19,
+    "question": "What is a subquery in SQL?",
+    "answer": "A query nested inside another SQL statement, whose result is used by the outer query."
+  },
+  {
+    "category": "Databases and SQL",
+    "question_number": 20,
+    "question": "Why is indexing important in databases?",
+    "answer": "Indexes speed up data retrieval by allowing the database to find rows faster, at the cost of extra storage and slower writes."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 21,
+    "question": "In Excel, which function would you use to calculate the average of a range of numeric values?",
+    "answer": "The AVERAGE() function."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 22,
+    "question": "What is a pivot table in Excel?",
+    "answer": "A tool that summarizes large data sets by grouping, aggregating, and rearranging fields into dynamic tables."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 23,
+    "question": "How would you remove duplicate records in Excel?",
+    "answer": "Use the \"Remove Duplicates\" feature under the Data tab, selecting the relevant columns."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 24,
+    "question": "What does the VLOOKUP function do?",
+    "answer": "It searches for a value in the first column of a table and returns a value from another column in the same row."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 25,
+    "question": "Why is data validation useful in Excel?",
+    "answer": "It restricts the type of data or values that users can enter, helping maintain data quality."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 26,
+    "question": "What is conditional formatting?",
+    "answer": "A feature that changes cell formatting automatically based on specified rules or conditions."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 27,
+    "question": "How can you create a basic chart in Excel?",
+    "answer": "Select the data range, then use Insert choose chart type (e.g., column, line, pie)."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 28,
+    "question": "What is a cell reference, and what is the difference between relative and absolute references?",
+    "answer": "A cell reference points to a cell's location; relative references change when copied, absolute references (e.g., $A$1) stay fixed."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 29,
+    "question": "How would you handle a large CSV file with inconsistent date formats?",
+    "answer": "Import carefully, use text-to-columns or parsing functions, and convert all dates to a consistent format using date functions."
+  },
+  {
+    "category": "Excel and spreadsheet skills",
+    "question_number": 30,
+    "question": "How can filters help in data analysis in Excel?",
+    "answer": "Filters allow you to display only rows meeting specific criteria, making exploration and cleaning easier."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 31,
+    "question": "What is the difference between mean, median, and mode?",
+    "answer": "Mean is the average, median is the middle value when data is ordered, and mode is the most frequent value."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 32,
+    "question": "What is correlation?",
+    "answer": "A measure of how strongly two variables move together, often expressed by a correlation coefficient between -1 and +1."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 33,
+    "question": "What is a hypothesis test?",
+    "answer": "A statistical procedure used to decide whether there is enough evidence in a sample to support a claim about a population."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 34,
+    "question": "What is a confidence interval?",
+    "answer": "A range of values, derived from sample data, that is likely to contain the true population parameter with a specified confidence level."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 35,
+    "question": "What is an outlier?",
+    "answer": "A data point that differs significantly from other observations and may indicate variability, error, or a special case."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 36,
+    "question": "What is a time series?",
+    "answer": "Data collected over time at regular intervals, often used to study trends and seasonality."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 37,
+    "question": "What is the difference between descriptive and inferential statistics?",
+    "answer": "Descriptive statistics summarize data; inferential statistics draw conclusions about a population based on sample data."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 38,
+    "question": "What is a metric in business analytics?",
+    "answer": "A quantifiable measure used to track and assess the status of a specific business process or outcome."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 39,
+    "question": "What is a KPI in business analytics?",
+    "answer": "A Key Performance Indicator, a focused metric that reflects how well an organization is achieving important objectives."
+  },
+  {
+    "category": "Statistics and metrics",
+    "question_number": 40,
+    "question": "What is churn rate?",
+    "answer": "The percentage of customers who stop using a product or service during a given period."
+  },
+  {
+    "category": "Data engineering basics and ETL",
+    "question_number": 41,
+    "question": "What does ETL stand for in data pipelines?",
+    "answer": "Extract, Transform, Load."
+  },
+  {
+    "category": "Data engineering basics and ETL",
+    "question_number": 42,
+    "question": "What is data warehousing?",
+    "answer": "The practice of collecting and managing data from multiple sources in a central repository designed for reporting and analysis."
+  },
+  {
+    "category": "Data engineering basics and ETL",
+    "question_number": 43,
+    "question": "What is a data pipeline?",
+    "answer": "A series of processes that move data from source systems through transformation steps into storage or analytic systems."
+  },
+  {
+    "category": "Data engineering basics and ETL",
+    "question_number": 44,
+    "question": "What is data normalization in databases?",
+    "answer": "Organizing data to reduce redundancy and improve integrity, typically by splitting tables and defining relationships."
+  },
+  {
+    "category": "Data engineering basics and ETL",
+    "question_number": 45,
+    "question": "What is a star schema?",
+    "answer": "A data warehouse design where a central fact table is linked to multiple dimension tables, forming a star-like structure."
+  },
+  {
+    "category": "Data quality, governance, and communication",
+    "question_number": 46,
+    "question": "What is data quality?",
+    "answer": "The degree to which data is accurate, complete, consistent, timely, and relevant for its intended use."
+  },
+  {
+    "category": "Data quality, governance, and communication",
+    "question_number": 47,
+    "question": "How do you handle missing data in a dataset?",
+    "answer": "Options include dropping rows/columns, imputing values (mean/median/mode), using models, or flagging missingness for further analysis."
+  },
+  {
+    "category": "Data quality, governance, and communication",
+    "question_number": 48,
+    "question": "What is data governance?",
+    "answer": "The framework of policies, roles, and processes that ensures data is managed properly, securely, and consistently across an organization."
+  },
+  {
+    "category": "Data quality, governance, and communication",
+    "question_number": 49,
+    "question": "Why are communication skills important for a data analyst?",
+    "answer": "Analysts must explain complex findings in simple terms, tailor messages to stakeholders, and tell a clear data story to drive decisions."
+  },
+  {
+    "category": "Data quality, governance, and communication",
+    "question_number": 50,
+    "question": "How would you explain a complex analytical result to a non-technical stakeholder?",
+    "answer": "Use simple language, focus on business impact, support the explanation with clear visuals, and avoid unnecessary technical detail."
+  }
+]
