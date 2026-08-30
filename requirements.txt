@@ -18,6 +18,8 @@ langchain-core
 langchain-google-genai
 langchain-groq
 langgraph
+langchain-mcp-adapters
+langchain-mistralai
 
 # RAG / PDF
 pymupdf

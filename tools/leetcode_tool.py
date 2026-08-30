@@ -1,3 +1,5 @@
+import json
+import re
 from typing import Any
 from langchain_core.tools import tool
 from ai.llm_adapter import generate_text_with_langchain
@@ -14,54 +16,45 @@ def leetcode_tool(topic: str = "arrays") -> dict[str, Any]:
 
     try:
         prompt = f"""
-Generate exactly 5 LeetCode-style practice problems for {topic}.
+Generate 3 high-yield LeetCode-style practice problems for topic: {topic}.
 
-Return ONLY valid JSON in this exact structure:
-
+Return ONLY a valid JSON array matching this exact schema:
 [
   {{
     "number": "1",
-    "title": "Problem title",
+    "title": "Problem Title",
     "difficulty": "Easy",
-    "problem": "Full problem statement",
+    "problem": "Clear problem statement",
     "input": "Input description",
     "output": "Output description",
     "example": {{
       "input": "Example input",
       "output": "Example output"
     }},
-    "hint": "Short hint"
+    "hint": "Helpful hint"
   }}
 ]
 
 Rules:
-- Generate exactly 5 problems.
-- Do NOT return markdown.
-- Do NOT return a paragraph.
-- Do NOT return explanations outside the JSON.
-- Include the complete problem statement.
-- If topic is SQL, generate SQL/database problems.
-- If topic is Python, generate Python problems.
-- If topic is arrays, generate array problems.
+- Output valid JSON only, no surrounding conversational text.
+- If topic is SQL, generate practical SQL query challenges.
+- If topic is Python, generate Python data structure/algorithm challenges.
 """
 
         answer = generate_text_with_langchain(
             prompt,
-            system_prompt=(
-                "You are an expert LeetCode coding interview coach. "
-                "Return only valid JSON."
-            )
+            system_prompt="You are an expert LeetCode interview coach. Return only the JSON array."
         )
 
-        import json
-
-        # Remove accidental markdown code fences
-        answer = answer.strip()
-
-        if answer.startswith("```"):
-            answer = answer.replace("```json", "").replace("```", "").strip()
-
-        questions = json.loads(answer)
+        # Robust extraction: find the JSON array inside the LLM answer
+        match = re.search(r'\[\s*\{.*\}\s*\]', answer, re.DOTALL)
+        if match:
+            json_str = match.group(0)
+            questions = json.loads(json_str)
+        else:
+            # Fallback cleaning if standard fences used
+            cleaned = answer.replace("```json", "").replace("```", "").strip()
+            questions = json.loads(cleaned)
 
         return {
             "status": "success",

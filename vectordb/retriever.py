@@ -9,9 +9,24 @@ vector_store = VectorStore()
 
 
 def _extract_question_text(doc: dict) -> str:
+    # 1. Try root-level fields
+    q = doc.get("question")
+    a = doc.get("answer")
+
+    # 2. Try metadata fields
     meta = doc.get("metadata") or {}
-    if meta.get("question"):
-        return meta.get("question").strip()
+    if not q:
+        q = meta.get("question")
+    if not a:
+        a = meta.get("answer")
+
+    if q:
+        q = q.strip()
+        if a:
+            return f"{q}\n\nAnswer:\n{a.strip()}"
+        return q
+
+    # 3. Fallback to text field
     text = doc.get("text") or ""
     if "Question:" in text:
         return text.split("Question:", 1)[1].strip()
@@ -34,7 +49,7 @@ def _determine_category(doc: dict) -> str:
 async def get_interview_questions(
     query: str,
     resume_role: str = None,
-    top_k: int = 30
+    top_k: int = 200
 ) -> Dict[str, List[str]]:
 
     # --------------------------------------------------
@@ -68,36 +83,50 @@ async def get_interview_questions(
                 q_text = _extract_question_text(doc)
                 if not q_text or q_text in seen:
                     continue
-                seen.add(q_text)
                 category = _determine_category(doc)
+                
+                # Technical questions must match the candidate's detected role
+                if category == "technical" and resume_role:
+                    doc_role = doc.get("role") or ""
+                    # Allow partial, case‑insensitive match between detected role and document role
+                    if resume_role.lower().strip() not in doc_role.lower():
+                        continue
+                    if len(questions["technical"]) >= 20:
+                        continue
+                        
+                seen.add(q_text)
                 questions[category].append(q_text)
 
     except Exception as e:
         print(f"❌ Main MongoDB vector search failed: {e}")
 
     # --------------------------------------------------
-    # 3. Fallback targeted retrieval for any thin category
+    # 3. Fallback targeted retrieval
     # --------------------------------------------------
-    if len(questions["technical"]) < 3:
+    # Repeatedly attempt to fetch technical questions if under limit
+    attempts = 0
+    while len(questions["technical"]) < 20 and attempts < 5:
         try:
-            t_query = f"{resume_role or ''} technical architecture algorithms coding system design interview questions"
+            t_query = f"{resume_role or ''} technical interview questions"
             t_embed = await embed_query(t_query)
-            t_results = await vector_store.similarity_search(query_embedding=t_embed, top_k=15)
+            # Increase top_k each attempt to broaden search
+            t_results = await vector_store.similarity_search(query_embedding=t_embed, top_k=top_k + (attempts * 200))
             for doc in t_results:
                 if _determine_category(doc) == "technical":
                     q_text = _extract_question_text(doc)
                     if q_text and q_text not in questions["technical"]:
                         questions["technical"].append(q_text)
-                    if len(questions["technical"]) >= 5:
+                    if len(questions["technical"]) >= 20:
                         break
         except Exception as e:
             print(f"❌ Technical question fallback error: {e}")
+        attempts += 1
 
-    if len(questions["project"]) < 3:
+    if len(questions["project"]) < 5:
         try:
-            p_query = f"{resume_role or ''} project architecture challenges final year project implementation"
+            p_query = f"{resume_role or ''} project architecture challenges implementation"
             p_embed = await embed_query(p_query)
-            p_results = await vector_store.similarity_search(query_embedding=p_embed, top_k=15)
+            p_results = await vector_store.similarity_search(query_embedding=p_embed, top_k=50)
             for doc in p_results:
                 q_text = _extract_question_text(doc)
                 if q_text and q_text not in questions["project"]:

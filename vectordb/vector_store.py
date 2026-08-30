@@ -229,6 +229,8 @@ class VectorStore:
 
                     "text": 1,
 
+                    "question": 1,
+
                     "answer": 1,
 
                     "role": 1,

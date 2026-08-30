@@ -42,6 +42,32 @@ def detect_role(filename: str) -> str:
     return "General"
 
 
+def load_json_files() -> list[dict]:
+    all_questions = []
+    if not os.path.exists(KNOWLEDGE_BASE):
+        print("Knowledge base folder not found.")
+        return all_questions
+
+    for filename in os.listdir(KNOWLEDGE_BASE):
+        if not filename.endswith(".json"):
+            continue
+        filepath = os.path.join(KNOWLEDGE_BASE, filename)
+        role = detect_role(filename)
+        try:
+            with open(filepath, "r", encoding="utf-8") as file:
+                questions = json.load(file)
+            for index, q in enumerate(questions):
+                q_copy = q.copy()
+                q_copy["role"] = role
+                q_copy["source"] = filename
+                if "question_number" not in q_copy:
+                    q_copy["question_number"] = index + 1
+                all_questions.append(q_copy)
+        except Exception as e:
+            print(f"Error reading {filename}: {e}")
+    return all_questions
+
+
 def load_interview_documents() -> list[Document]:
 
     documents = []
